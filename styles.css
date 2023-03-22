@@ -3,3 +3,45 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+div {
+    border: 1px solid red;
+}
+.header {
+    background-color: #1f2937
+}
+.main-1 {
+    background-color: #1f2937
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+button {
+  background-color: #3882f6;
+}
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left-header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.main-3 {
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
