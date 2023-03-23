@@ -1,16 +1,35 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    max-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
 }
 div {
-    border: 1px solid red;
+    border: px solid red;
 }
 .header {
-    background-color: #1f2937
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 64px;
+    gap: 425px;
+}
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    padding: 32px;
+    font-size: 24px;
+    align-items: center;
 }
 .main-1 {
-    background-color: #1f2937
+    background-color: #1f2937;
+    display: flex;
+    padding: 64px;
+    justify-content: center;
 }
 h1 {
   font-size: 48px;
@@ -19,6 +38,11 @@ h1 {
 }
 button {
   background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 32px;
+  text-align: center;
+  border-radius: 16px;
+  font-weight: bolder;
 }
 .description {
     font-size: 18px;
@@ -27,13 +51,15 @@ button {
 a {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 .left-header {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 .text {
-    font-size: 36px;
+    font-size: 16px;
     font-weight: bolder;
     color: #1f2937;
 }
@@ -45,3 +71,84 @@ a {
     font-style: italic;
     color: #1f2937;
 }
+ul {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+}
+li {
+    list-style-type: none;
+}
+.guitar {
+    height: 250px;
+    width: 500px;
+    border: 5px solid  black;
+}
+
+.right-header {
+    display: flex;
+    padding-right: 64px;
+}
+.main-1-left {
+    width: 500px;
+    
+}
+.main-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 250px;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.submain-2 {
+    display: flex;
+    gap: 200px;
+}
+
+h2 {
+    font-size: 32px;
+}
+.album-description {
+    display: flex;
+    justify-content: space-around;
+}
+.main-3 {
+    display: flex;
+    padding: 128px 256px;
+}
+
+.quote-author {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    font-style: italic;
+}
+strong {
+    font-size: 24px;
+    
+}
+.main-4 {
+ display: flex;
+ justify-content: center;
+ gap: 128px;
+ background-color: #3882f6;
+ margin: 100px 600px;
+ padding: 32px;
+ border-radius: 15px;
+}
+ .signup-div {
+    color: #e5e7eb;
+    font-weight: 600;
+ }
+ .signup {
+    border: 1px solid white;
+    margin: 10px;
+ }
